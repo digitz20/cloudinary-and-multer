@@ -57,7 +57,7 @@ exports.getAllUser = async (req, res) => {
 }
 
 
-exports.getOneUser = async (req, res) => {
+exports.getOneUser = async (req, res) => { 
     try {
         const {id} = req.params
 
